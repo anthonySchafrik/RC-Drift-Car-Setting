@@ -1,0 +1,30 @@
+package com.example.driftcarsetting.data
+
+data class CarModel(
+    val id: Long = 0,
+    val name: String,
+    val frontCamberDegreeLeft: String,
+    val frontCamberDegreeRight: String,
+    val frontCamberLengthLeft: String,
+    val frontCamberLengthRight: String,
+    val frontTowDegreeLeft: String,
+    val frontTowDegreeRight: String,
+    val frontTowLengthLeft: String,
+    val frontTowLengthRight: String,
+    val frontShockName: String,
+    val frontShockLength: String,
+    val frontShockPreload: String,
+    val frontRimOffset: String,
+    val rearCamberDegreeLeft: String,
+    val rearCamberDegreeRight: String,
+    val rearCamberLengthLeft: String,
+    val rearCamberLengthRight: String,
+    val rearTowDegreeLeft: String,
+    val rearTowDegreeRight: String,
+    val rearTowLengthLeft: String,
+    val rearTowLengthRight: String,
+    val rearShockName: String,
+    val rearShockLength: String,
+    val rearShockPreload: String,
+    val rearRimOffset: String
+)
